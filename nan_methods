@@ -1,0 +1,3 @@
+If You need NA count of all — table(is.na (z))
+If you need NA count Column wise – sapply(z, function(x) sum(is.na (x)))
+If you need NA count Row wise — rowSums(is.na (z))
