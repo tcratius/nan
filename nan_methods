@@ -1,3 +1,7 @@
 If You need NA count of all — table(is.na (z))
 If you need NA count Column wise – sapply(z, function(x) sum(is.na (x)))
 If you need NA count Row wise — rowSums(is.na (z))
+
+sum(is.na(df))
+colSums(is.na(df))
+df[!complete.cases(df),]
